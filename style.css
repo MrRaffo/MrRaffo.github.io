@@ -4,6 +4,10 @@
   background-color: #f8f8f0;
 }
 
+h1 {
+  font-size: 48pt;
+}
+
 /* id selector */
 #main-div {
   text-align: center;
@@ -14,10 +18,13 @@
 }
 
 @media only screen and (max-width: 640px) {
-        
+  
+  h1 {
+    font-size: 24pt;
+  }
+
   #main-div {
     width: 100%;
-    font-size: 16pt;
   }
 }
  
