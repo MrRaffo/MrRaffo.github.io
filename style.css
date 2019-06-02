@@ -1,0 +1,23 @@
+* {
+  font-family: Courier, Arial;
+  color: #444430;
+  background-color: #f8f8f0;
+}
+
+/* id selector */
+#main-div {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  left: auto;
+  margin: 128px auto auto auto;
+}
+
+@media only screen and (max-width: 640px) {
+        
+  #main-div {
+    width: 100%;
+    font-size: 16pt;
+  }
+}
+ 
